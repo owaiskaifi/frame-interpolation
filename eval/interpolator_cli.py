@@ -102,7 +102,7 @@ _ALIGN = flags.DEFINE_integer(
     help='If >1, pad the input size so it is evenly divisible by this value.')    
 _OUTPUT_VIDEO = flags.DEFINE_boolean(
     name='output_video',
-    default=False,
+    default=True,
     help='If true, creates a video of the frames in the interpolated_frames/ '
     'subdirectory')
 
